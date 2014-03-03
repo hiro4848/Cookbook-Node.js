@@ -1,0 +1,18 @@
+---
+:ingredients:
+- :type: :installer
+  :installer_type: :msi
+  :source_url: http://nodejs.org/dist/v0.8.22/node-v0.8.22-x86.msi
+  :package_name: Node.js
+  :installer_options: /quiet
+  :support_32bit: true
+  :support_64bit: 
+- :type: :installer
+  :installer_type: :msi
+  :source_url: http://nodejs.org/dist/v0.8.22/x64/node-v0.8.22-x64.msi
+  :package_name: Node.js
+  :installer_options: /quiet
+  :support_32bit: 
+  :support_64bit: true
+:support_32bit: true
+:support_64bit: true
